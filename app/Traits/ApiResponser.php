@@ -17,7 +17,7 @@ trait ApiResponser
             'data' => $data
         ], $code);
     }
-it
+
     /**
      * Respuesta estándar para errores (400, 404, 500).
      */
