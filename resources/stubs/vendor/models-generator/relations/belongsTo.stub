@@ -1,0 +1,11 @@
+
+    /**
+     * "belongs to" relation to `{{relatedTable}}` table
+     * via `{{foreignKey}}` field.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function {{name}}()
+    {
+        return $this->belongsTo(\{{relatedModel}}::class, '{{foreignKey}}');
+    }

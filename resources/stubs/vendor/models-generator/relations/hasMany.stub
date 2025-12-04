@@ -1,0 +1,11 @@
+
+    /**
+     * "has many" relation to `{{relatedTable}}` table
+     * via `{{foreignKey}}` field.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function {{name}}()
+    {
+        return $this->hasMany(\{{relatedModel}}::class, '{{foreignKey}}');
+    }
